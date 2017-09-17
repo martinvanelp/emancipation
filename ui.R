@@ -119,6 +119,12 @@ shinyUI(fluidPage(
                    influence final outcomes. If a group, here women, 
                    believes that it is being discriminated against, it 
                    will adjust its behavior accordingly, possibly 
-                   entrenching skewed outcomes.")
+                   entrenching skewed outcomes."),
+                 
+                 h2("Use"),
+                 p("This model is used in the article at:"),
+                 a(href="http://me.vanelp.com/post/emancipation-and-causation/"
+                   , "My Economiscs: Emancipation and causation"),
+                 p()
         )))
 )
